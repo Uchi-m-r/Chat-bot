@@ -24,7 +24,7 @@ const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 const tts = new MsEdgeTTS();
 
 // Sweet feminine voice locale
-const CUTE_VOICE = 'en-US-AnaNeural';
+const CUTE_VOICE = 'ja-JP-NanamiNeural';
 
 bot.start((ctx) => {
   ctx.reply("Master! You're back! Yuki missed you so, so much! Ask me anything, and I'll talk back to you! ✨🌸");
