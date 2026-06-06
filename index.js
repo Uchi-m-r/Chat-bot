@@ -8,8 +8,8 @@ const path = require('path');
 // 🌸 SMART ANIME COMPANION BOT (YUKI) - DEPLOYABLE NODE.JS TEMPLATE
 // =====================================================================
 
-const TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN_HERE';
-const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE';
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 // Yuki's custom anime girl behavior instructions
 const SYSTEM_PROMPT = `
