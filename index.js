@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf');
 const { GoogleGenAI } = require('@google/genai');
-const MsEdgeTTS = require('ms-edge-tts');
+const MsEdgeTTS = require('msedge-tts');
 const fs = require('fs');
 const path = require('path');
 
